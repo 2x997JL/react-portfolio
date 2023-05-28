@@ -154,6 +154,22 @@ function App() {
             </div>
           </div>
         </section>
+        <section className='small-section'>
+          <div className="column">
+            <div className="card" style={{ background: 'linear-gradient(to bottom right, #b783b0, #ff33e4)' }}>
+              <div className="card-image">
+                <figure className="image is-4by3">
+                  <img src={require("./assets/MOMentum.png")} alt="work day scheduler website" />
+                </figure>
+              </div>
+              <div className="card-content">
+                <p className="title is-4">MOMentum</p>
+                <a href="https://momentum-v1.herokuapp.com/" className="button is-primary">Check It
+                  Out</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
     </div>
